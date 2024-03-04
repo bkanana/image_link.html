@@ -1,0 +1,37 @@
+img{
+    width: 300px;
+    height: 200;
+}
+header{
+    padding: 0%;
+}
+body{
+    background-color: #e9d4a9;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+
+}
+.container{
+    align-items: center;
+    justify-content: center;
+
+}
+header, nav, main {
+    padding: 20px;
+
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.menu ul{
+ list-style-type: none;
+    padding: 0;   
+}
+.menu li{
+   margin-bottom: 10px; 
+}
+    
+    
